@@ -206,7 +206,7 @@ input {
 
 .card-accom .fa-star {
   padding: px;
-
+  margin: 19px 0px;
   display: inline-flex;
   justify-content: right;
   padding-right: 0px;
