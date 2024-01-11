@@ -248,6 +248,7 @@ input {
   gap: 10px;
   border-radius: 25px;
   border: 2px solid var(--Grey-Tint2, #d9d9d9);
+  justify-content: center;
 }
 .filterborder:hover {
   background: var(--Blue-Light, #deebff);
