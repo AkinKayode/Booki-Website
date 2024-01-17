@@ -304,6 +304,7 @@ input {
   flex: 1 0 0;
   width: calc(100% / 20 - 10px);
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 .activity-card h3 {
   padding-left: 20px;
@@ -319,6 +320,7 @@ input {
   flex-shrink: 0;
   align-self: stretch;
   border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
 }
 
 .space {
@@ -338,7 +340,14 @@ input {
 }
 
 .pk {
+  flex: 1 0 0;
+  display: flex;
+  height: 24px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
   margin-bottom: 35px;
+  margin-top: 35px;
 }
 
 .list {
@@ -364,4 +373,28 @@ input {
 .show-more {
   text-decoration: none;
   color: #000000;
+}
+
+.ass .fa-location-dot {
+  background-color: #f2f2f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  padding-left: 2px;
+}
+
+.fa-location-dot {
+  justify-content: center;
+  height: 54px;
+  width: 55px;
+}
+
+.fa-info {
+  border-radius: 50%;
+
+  border-width: 100px thin;
+  background-color: #d9d9d9;
+  padding: 20px;
 }
